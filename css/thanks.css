@@ -1,0 +1,119 @@
+body{
+    background-image: url(../img/shopcover.jpg);
+    background-size: cover;
+}
+.allmain{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:160px;
+    height: 500px;
+}
+hr{
+    height: 2px;
+    color: black;
+}
+table,td{
+    border-left: 2px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+.allmain{
+    background-color: rgba(245, 245, 245, 0.844);
+    opacity: 0.8;
+    padding: 15px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+}
+p,h1,h2,h3,td,label{
+    color: black;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+h3{
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 335px;
+    padding: 3px;
+    margin-top: 50px;
+}
+.rating{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.sub{
+    margin-left: 38%;
+}
+.submit{
+    width: 16%;
+    background-color: #2188ff ;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 7px;
+    color: white;
+}
+.submit:hover,.nohanks:hover{
+    background-color: #0077ff56;
+    transition: 0.7s;
+}
+.nohanks{
+    width: 16%;
+    background-color: #2188ff ;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.nohanks,.submit{
+    display: inline-block;
+}
+label{
+    padding-left: 10px;
+}
+form > div{
+    padding: 5px 0;
+}
+form input[type="radio"]{
+    -webkit-appearance: none;
+}
+form label{
+    position: relative;
+    padding-left: 25px;
+}
+form label::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 1px solid #0075ff;
+    border-radius:4px ;
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+form input[type="radio"]:checked+label::after
+,form input[type="radio"]:not(checked):hover+label::after{
+    content: '';
+    border-radius: 4px;
+    background-color: #0075ff;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+form input[type="radio"]:not(checked):hover +label::after{
+    opacity: 0.2 ;
+}
+form input[type="radio"]:checked+label{
+    color: #0075ff;
+    text-shadow: 1px 1px black;
+}

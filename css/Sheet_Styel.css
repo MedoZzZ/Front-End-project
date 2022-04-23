@@ -1,0 +1,263 @@
+/* general edit */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containar {
+    width: 80%;
+   
+    margin: auto;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.hover-opacity {
+    transition: opacity .51s;
+}
+
+.hover-opacity:hover {
+    opacity: 0.8;
+}
+
+button {
+    font-family: inherit;
+}
+
+.pd-y {
+    padding: 120px 0;
+}
+  /*  only for header & footer page*/
+.p-x {
+    padding: 400px 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-header .section-title {
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.section-header .line {
+    display: block;
+    height: 5px;
+    width: 60px;
+   margin: auto; 
+    background-color: #6195ff;
+    margin: 0 auto 70 auto;
+}
+/* header */
+.header {
+    /* background: gray; */
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.header_content {
+    overflow: hidden;
+}
+
+.header .logo {
+    width: 40%;
+    float: left; 
+}
+
+.header .logo img {
+    width: 16%;
+    margin-top: 15px;
+}
+
+.header .nav {
+        width: 60%;
+        float: left;
+        list-style: none;
+        text-align: right;
+}
+
+.header .nav li {
+    display: inline-block;
+    
+}
+
+.header .nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 15px;
+    display: block;
+   font-size: 15px;
+   
+} 
+
+.header .nav li a.active:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color:#6195ff;
+    transition: width 0.5s;
+}
+
+.header .nav li a:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color:#6195ff;
+    transition: width 0.5s;
+}
+
+.header .nav li a:hover:after {
+    width: 100%;
+}
+/* home section */
+.home {
+    height: 100vh;
+    background-image: url("../img/background/MercedesBenz.jpg");
+    background-size: cover;
+    
+}
+
+.home-content {
+    position: absolute;
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /* put the div in center*/
+    
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: montserat,sans-serif;
+}
+.home .title {
+    color: #fff;
+    font-size: 50px;
+    text-transform:uppercase ;
+}
+
+.home .home-description {
+    margin: 20px 0;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 1,5;
+}
+
+.home .btn {
+    min-width: 150px;
+    padding: 15px 0;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+}
+
+.home .btn-start {
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+.home .btn-learn {
+    background-color:#6195ff;
+    color:#fff;
+}
+
+.about-content {
+    overflow: hidden;
+
+}
+
+.about-item {
+    width: 30%;
+    float: left;
+    text-align: center;
+    border: 1px solid #777;
+    padding: 50px 20px;
+}
+
+.about-item.mg {
+    margin: 0 5%;
+}
+
+.l {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #6195ff;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 8px;
+    color: #fff;
+    }
+
+    .icon {
+        color: #6195ff;
+    }
+
+
+
+.footer {
+    background-color: #1c1d21;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.footer .footer-content {
+    display:block;
+}
+
+.footer-links  {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.footer-links li {
+    display: inline-block;
+}
+
+.footer-links li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #6195ff;
+    color: #fff;
+    margin: 0 5px;
+    border-radius: 30%;
+}
+
+.footer-links li a i {
+    line-height: 50px;
+
+}
+
+.footer .copyright {
+    color: #999;
+    font-size: 17px; 
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

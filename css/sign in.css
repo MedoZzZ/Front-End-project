@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box    
+}
+
+
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.sign{
+    height: 100vh;
+    background: url("../img/sign in car.jpg");
+    background-size: cover;
+}
+
+.sign-content{
+    position: absolute;
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /* put the div in center*/
+    text-align: center;
+    z-index: 10px;
+    
+}
+.sign-in{
+    position: absolute;
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    background: rgba(0,0,0,0.5);
+    width: 410px;
+    height: 450px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 30px 5px #000, -5px -5px 30px 5px #000;
+    margin-top: 90px;
+}
+.sign-in h1{
+    color: #a56d1b;
+    text-align: center;
+    font-size: 45px;
+    margin: 20px
+}
+
+input[type="email"], [type="password"] {
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 280px;
+    height: 45px;
+    background: rgba(0,0,0,0.5);
+    padding: 5px;
+    color: #fff;
+    border-radius: 7px;
+
+}
+input[type="email"]{
+    top: 150px;
+    left: 100px;
+
+}
+input[type="password"]{
+    top: 210px;
+    left: 100px;
+
+}
+input[value="Sign in"]{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 300px;
+    left: 140px;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+input[value="Sign in"]:hover,input[value="Sign in"]:active{
+    background:  #0077ff;
+    border: none;
+    transform: scale(1.05);
+}
+
+.forget p{
+    position: absolute;
+    top: 360px;
+    left: 50px;
+    color: white;
+    transition: all 0.5s ease-out;
+}
+.forget :hover{
+    color: #0077ff;
+    transform: scale(1.05);
+}
+a {
+    text-decoration: none;
+}
+.reg{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    color: white;
+
+}
+.u{
+    position: absolute;
+    top: 400px;
+    left: 230px;
+    color: #c33721;
+    display: inline-block;
+    transition: all 0.5s ;
+}
+.u:hover{
+    color: #0077ff;
+    transform: scale(1.05);
+}
+.e , .p {
+    position: absolute;
+    color: #fff;
+}
+.e{
+    top: 160px;
+    left: 30px;
+}
+.p{
+    top: 220px;
+    left: 20px;
+}
+.pas:hover, .pas:active{
+    border-bottom: 5px groove #007856;
+    transform: scale(1.05);
+}
+input[type="email"]:hover, input[type="email"]:active{
+    border-bottom: 5px groove #007856;
+    transform: scale(1.05);
+}
+input[type="email"]:focus{
+    outline: 0;
+    z-index: 2;
+    border-right: 5px solid #0258ff;
+}
+input[type="password"]:focus{
+    outline: 0;
+    z-index: 2;
+    border-right: 5px solid #0258ff;
+}
+::-webkit-scrollbar{
+ width: 10px;
+ background: rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-track{
+  border-radius: 5px;
+  
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 5px;
+  background: #3c4641;
+}
+::-webkit-scrollbar-thumb:hover{
+  border-radius: 5px;
+  background: #596560;
+}
