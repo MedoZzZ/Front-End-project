@@ -1,0 +1,87 @@
+body {
+    background-color: #030a10cf;
+
+}
+.contact{
+    width: 250px;
+    background: #fff;
+    padding: 50px;
+    margin: 100px auto;
+    border-radius: 25px;
+}
+.title h1{
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+
+.form,
+.form-items{
+    width:100%;
+    
+}
+.form-items .input{
+    width:100%;
+    margin-bottom: 12px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+    
+}
+.form-items .input.message{
+    height: 125px;
+    border-radius: 15px;
+    border-bottom: 30px;
+    padding: 15px;
+    resize: none;
+}
+.btn{
+    background: #0077ff;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    border-radius: 25px ;
+    border-bottom: 10px groove black;
+    cursor: pointer;
+}
+.social-icons{
+    position: absolute;
+    border: -25px;
+    left: 50%;
+    margin-top: 10px;
+    transform: translateX(-50%);
+    width:200px;
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons div{
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+.social-icons div .fab{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+.social-icons div.facebook{
+  background: #5178d9;
+}
+
+.social-icons div.twitter{
+  background: #41caf6;
+}
+
+.social-icons div.google{
+  background: #fb4f4f;
+}
